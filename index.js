@@ -11,7 +11,7 @@ mondayWork();
 
 function wrapAdjective(s="*") {
   return function(adjective="special") {
-    return `You are ${adjective}`
+    return `You are ||${adjective}||`
   }
 }
 
